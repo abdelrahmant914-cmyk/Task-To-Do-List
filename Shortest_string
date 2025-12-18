@@ -1,0 +1,8 @@
+def shortest_string(strings):
+    if not strings:
+        return None  # Return None if the list is empty
+    return min(strings, key=len)
+
+# Example usage
+words = ["apple", "banana", "kiwi", "pear"]
+print(shortest_string(words))  # Output: "kiwi"
