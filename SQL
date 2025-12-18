@@ -1,0 +1,12 @@
+-- إنشاء جدول الطلاب
+CREATE TABLE students (
+    student_id INT,
+    name VARCHAR(100),
+    grade INT
+);
+
+SELECT * FROM students;
+
+SELECT *
+FROM students
+WHERE grade BETWEEN 90 AND 100;
